@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nicholas.pound_slasher.login"
+    tools:showIn="@layout/activity_login">
+
+
+
+    <TextView
+        android:id="@+id/TextViewps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Pound Slasher"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/EditTextee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:ems="12"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/EditTextep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="Enter Password"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:ems="8"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        android:background="@android:color/holo_green_dark" />
+    <Button
+        android:id="@+id/buttonsignup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/buttonfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+</LinearLayout>

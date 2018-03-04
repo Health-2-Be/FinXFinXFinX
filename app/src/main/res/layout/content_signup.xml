@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="35dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nicholas.pound_slasher.signup"
+    tools:showIn="@layout/activity_signup">
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Pound Slasher"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/textViewfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter First Name :"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:ems="20" />
+    <EditText
+        android:id="@+id/editTextfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:hint="First Name Here"
+         />
+
+    <TextView
+        android:id="@+id/textViewln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Last Name :"
+        android:textStyle="bold"
+        android:ems="20"/>
+    <EditText
+        android:id="@+id/editTextln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:hint="Last Name Here" />
+    <TextView
+        android:id="@+id/textViewe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email :"
+        android:textStyle="bold"
+        android:ems="20" />
+    <EditText
+        android:id="@+id/editTexte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:hint="Email Here" />
+    <TextView
+        android:id="@+id/textViewp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password :"
+        android:textStyle="bold"
+        android:ems="20" />
+    <EditText
+        android:id="@+id/editTextp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:password="true"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:hint="Password Here"/>
+    <TextView
+        android:id="@+id/textViewpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password Again :"
+        android:textStyle="bold"
+        android:ems="20" />
+    <EditText
+        android:id="@+id/editTextpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:password="true"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:hint="Re-enter Password Here" />
+    <TextView
+        android:id="@+id/editTextblank"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="By clicking Join now, you agree to Pound Slasher User Agreement Privacy Policy"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="8dp" />
+    <Button
+        android:id="@+id/buttonjoinnowbegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join now "
+        android:ems="10"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

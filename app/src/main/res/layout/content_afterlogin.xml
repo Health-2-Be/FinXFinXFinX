@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nicholas.pound_slasher.afterlogin"
+    tools:showIn="@layout/activity_afterlogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Filler (Welcome (Users Name)!)"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machine"
+        android:layout_marginTop="60dp"
+        android:ems="15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dietary"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonsr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Report"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
