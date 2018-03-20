@@ -33,24 +33,26 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="25dp"
-        android:hint="Search..."
+        android:layout_marginEnd="20dp"
         android:ems="6"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="63dp" />
+        android:hint="Search..."
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        tools:layout_editor_absoluteY="64dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
         android:text="Find"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        tools:layout_editor_absoluteX="186dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="28dp"
         android:ems="12"
         android:text="Stretches"
         android:textAllCaps="false"

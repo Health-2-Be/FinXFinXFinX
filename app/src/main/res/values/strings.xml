@@ -23,4 +23,5 @@
     <string name="obese_class_i">Obese Class I(Moderately Obese)</string>
     <string name="obese_class_ii">Obese Class II(Severely Obese)</string>
     <string name="obese_class_iii">Obese Class III(Very Severely Obese)</string>
+    <string name="title_activity_forgotpass">forgotpass</string>
 </resources>
