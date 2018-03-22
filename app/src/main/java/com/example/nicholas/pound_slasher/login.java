@@ -13,6 +13,7 @@ public class login extends AppCompatActivity {
 
     private Button buttonsignup2;
     private Button btnlogin;
+    private Button buttonfp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +45,13 @@ public class login extends AppCompatActivity {
                 openAfterLogin();
             }
         });
-
+        buttonfp = (Button) findViewById(R.id.buttonfp);
+        buttonfp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openForgetPass();
+            }
+        });
 
     }
     public void openSignUp(){
@@ -53,6 +60,10 @@ public class login extends AppCompatActivity {
     }
     public void openAfterLogin(){
         Intent intent = new Intent(this,afterlogin.class);
+        startActivity(intent);
+    }
+    public void openForgetPass(){
+        Intent intent = new Intent(this,forgotpass.class);
         startActivity(intent);
     }
 
