@@ -14,12 +14,11 @@
 
 
     <TextView
-        android:id="@+id/textViewexer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="-10dp"
-        android:ems="9"
+        android:ems="12"
         android:text="Exercises"
         android:textAlignment="center"
         android:textSize="25dp"
@@ -30,116 +29,102 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01" />
 
-    <EditText
-        android:id="@+id/textViewsearche"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="16dp"
-        android:ems="6"
+        android:layout_height="25dp"
         android:hint="Search..."
-        app:layout_constraintEnd_toStartOf="@+id/buttonupperb"
-        app:layout_constraintHorizontal_bias="0.814"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewexer" />
+        android:ems="6"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="63dp" />
 
     <Button
-        android:id="@+id/buttonupperb"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginTop="12dp"
         android:text="Find"
-        android:background="@drawable/buttoncurve"
-        app:layout_constraintBottom_toTopOf="@+id/buttonlowerb"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewexer"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="47dp" />
 
     <Button
-        android:id="@+id/buttonstretches"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:ems="12"
         android:text="Stretches"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewsearche" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/buttonspeed"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="12"
         android:text="Speed"
-        android:layout_marginTop="7dp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonstretches" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/buttonstrength"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="12"
         android:text="Strength"
-        android:layout_marginTop="7dp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonspeed" />
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
-        android:id="@+id/buttonmflexibility"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="4dp"
         android:ems="12"
-        android:text="Flexibility"
+        android:text="Flexbility"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonstrength" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
-        android:id="@+id/buttonendurance"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="8dp"
         android:ems="12"
         android:text="Endurance"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonmflexibility" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
-        android:id="@+id/buttonstamina"
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
         android:ems="12"
         android:text="Stamina"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonendurance" />
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
-        android:id="@+id/buttoncoree"
+        android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="8dp"
         android:ems="12"
         android:text="Core"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonstamina" />
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
 
 </android.support.constraint.ConstraintLayout>

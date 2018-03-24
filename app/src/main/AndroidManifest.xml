@@ -54,10 +54,6 @@
         <activity
             android:name=".bmicalc"
             android:label="@string/title_activity_bmicalc"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".forgotpass"
-            android:label="@string/title_activity_forgotpass"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

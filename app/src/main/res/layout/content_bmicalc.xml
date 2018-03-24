@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="40dp"
         android:textSize="20sp"/>
 
     <EditText
@@ -31,15 +30,13 @@
         android:ems="6"
         android:inputType="number|numberDecimal"
         android:hint="Enter Weight (Pounds)" />
-
     <TextView
+        android:text="@string/height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
-        android:text="@string/height"
-        android:textSize="20sp" />
+        android:textSize="20sp"/>
 
     <EditText
         android:id="@+id/height"
@@ -55,7 +52,7 @@
         android:id="@+id/calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="25dp"
         android:layout_gravity="center_horizontal"
         android:onClick="calculateBMI"
         android:text="@string/calculateBMI" />
