@@ -14,12 +14,12 @@
 
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewexer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="-10dp"
-        android:ems="12"
+        android:ems="9"
         android:text="Exercises"
         android:textAlignment="center"
         android:textSize="25dp"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/textViewsearche"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginRight="20dp"
@@ -39,26 +39,27 @@
         android:layout_marginTop="16dp"
         android:ems="6"
         android:hint="Search..."
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/buttonupperb"
         app:layout_constraintHorizontal_bias="0.814"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewexer" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonupperb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="12dp"
         android:text="Find"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:background="@drawable/buttoncurve"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlowerb"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewexer"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonstretches"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -67,10 +68,10 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewsearche" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonspeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="12"
@@ -79,10 +80,10 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonstretches" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonstrength"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="12"
@@ -91,22 +92,22 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonspeed" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonmflexibility"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:ems="12"
-        android:text="Flexbility"
+        android:text="Flexibility"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonstrength" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonendurance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
@@ -115,10 +116,10 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonmflexibility" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/buttonstamina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
@@ -127,10 +128,10 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonendurance" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttoncoree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
@@ -139,6 +140,6 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonstamina" />
 
 </android.support.constraint.ConstraintLayout>

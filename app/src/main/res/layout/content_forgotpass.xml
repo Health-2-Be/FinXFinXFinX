@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/EditTexten"
+        android:id="@+id/EditTextenp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/EditTextee" />
 
     <EditText
-        android:id="@+id/EditTextet"
+        android:id="@+id/EditTextrenp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -61,10 +61,10 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EditTexten" />
+        app:layout_constraintTop_toBottomOf="@+id/EditTextenp" />
 
     <EditText
-        android:id="@+id/EditTexted"
+        android:id="@+id/EditTexteck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -81,7 +81,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EditTextet"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextrenp"
         app:layout_constraintVertical_bias="0.918" />
 
     <Button

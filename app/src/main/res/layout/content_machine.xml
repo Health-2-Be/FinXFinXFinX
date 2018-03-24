@@ -8,22 +8,25 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
+    android:background="@drawable/machineimg"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.nicholas.pound_slasher.machine"
     tools:showIn="@layout/activity_machine">
 
 
     <TextView
-        android:id="@+id/textViewm"
+        android:id="@+id/textViewmw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:ems="10"
+        android:ems="9"
         android:gravity="center_horizontal"
         android:text="Machine Workouts"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="25dp"
@@ -33,18 +36,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/textViewsearch"
+        android:id="@+id/textViewsearchm"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
+        android:background="@android:color/white"
         android:ems="6"
         android:hint="Search..."
         app:layout_constraintEnd_toStartOf="@+id/buttonfind"
-        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewm" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewmw" />
 
     <Button
         android:id="@+id/buttonfind"
@@ -53,16 +57,18 @@
         android:layout_marginEnd="76dp"
         android:layout_marginTop="16dp"
         android:text="Find"
+        android:background="@drawable/buttoncurve"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewm" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewmw" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonupperb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="18dp"
-        android:ems="12"
+        android:background="@drawable/machinebuttons"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Upper Body"
         android:textAllCaps="false"
@@ -72,75 +78,80 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonfind" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonlowerb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:ems="12"
+        android:background="@drawable/machinebuttons"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Lower Body"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonupperb" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:ems="12"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Arms"
+        android:background="@drawable/machinebuttons"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/buttonlowerb"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlowerb" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonleg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:ems="12"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Legs"
+        android:background="@drawable/machinebuttons"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonarm" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonmback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:ems="12"
+        android:background="@drawable/machinebuttons"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Back"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonleg" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonmcore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:ems="12"
+        android:ems="14"
         android:gravity="center_horizontal"
         android:text="Core"
+        android:background="@drawable/machinebuttons"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonmback" />
 
 
 </android.support.constraint.ConstraintLayout>

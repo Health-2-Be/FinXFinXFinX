@@ -24,4 +24,22 @@
     <string name="obese_class_ii">Obese Class II(Severely Obese)</string>
     <string name="obese_class_iii">Obese Class III(Very Severely Obese)</string>
     <string name="title_activity_forgotpass">forgotpass</string>
+    <string name="title_activity_machineupperbody">machineupperbody</string>
+    <string name="title_activity_machinelowerbody">machinelowerbody</string>
+    <string name="title_activity_machinearms">machinearms</string>
+    <string name="title_activity_machinelegs">machinelegs</string>
+    <string name="title_activity_machineback">machineback</string>
+    <string name="title_activity_machinecore">machinecore</string>
+    <string name="title_activity_dietarybreakfast">dietarybreakfast</string>
+    <string name="title_activity_dietarysnacks">dietarysnacks</string>
+    <string name="title_activity_dietarylunch">dietarylunch</string>
+    <string name="title_activity_dietarydinner">dietarydinner</string>
+    <string name="title_activity_dietaryquickmeal">dietaryquickmeal</string>
+    <string name="title_activity_exercisesstretches">exercisesstretches</string>
+    <string name="title_activity_exercisesspeed">exercisesspeed</string>
+    <string name="title_activity_exercisesstrength">exercisesstrength</string>
+    <string name="title_activity_exercisesflexibility">exercisesflexibility</string>
+    <string name="title_activity_exercisesendurance">exercisesendurance</string>
+    <string name="title_activity_exercisesstamina">exercisesstamina</string>
+    <string name="title_activity_exercisescore">exercisescore</string>
 </resources>
