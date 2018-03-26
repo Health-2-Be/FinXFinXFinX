@@ -128,7 +128,7 @@
         android:layout_height="wrap_content"
         android:text="Join now "
         android:ems="10"
-        android:background="@android:color/holo_green_dark"
+        android:background="@drawable/greenbuttons"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal" />
 

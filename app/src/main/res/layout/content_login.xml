@@ -63,7 +63,7 @@
         android:ems="8"
         android:textAllCaps="false"
         android:visibility="visible"
-        android:background="@android:color/holo_green_dark" />
+        android:background="@drawable/greenbuttons" />
     <Button
         android:id="@+id/buttonsignup2"
         android:layout_width="wrap_content"
