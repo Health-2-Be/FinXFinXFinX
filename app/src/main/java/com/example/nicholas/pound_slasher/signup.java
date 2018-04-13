@@ -9,8 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -25,19 +27,33 @@ public class signup extends AppCompatActivity implements View.OnClickListener{
 
     EditText editTexte,editTextp;
     ProgressBar progressBar2;
-    private FirebaseAuth mAuth;
+    private FirebaseAuth Auth;
+    private Button buttonjoin;
+    private TextView tlogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        Auth = FirebaseAuth.getInstance();
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         editTexte =(EditText)findViewById(R.id.editTexte);
         editTextp =(EditText)findViewById(R.id.editTextp);
         progressBar2 =(ProgressBar)findViewById(R.id.progressBar2);
+        buttonjoin = (Button) findViewById(R.id.buttonjoin);
+        buttonjoin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                registerUser();
+            }
+        });
 
-        mAuth = FirebaseAuth.getInstance();
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +92,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener{
         progressBar2.setVisibility(View.VISIBLE);
 
 
-        mAuth.createUserWithEmailAndPassword(email, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        Auth.createUserWithEmailAndPassword(email, Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 progressBar2.setVisibility(View.INVISIBLE);
@@ -106,7 +122,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
 
-            case R.id.buttonjoinnowbegin:
+            case R.id.buttonjoin:
                 registerUser();
                 break;
 

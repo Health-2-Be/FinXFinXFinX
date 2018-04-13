@@ -23,7 +23,6 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 public class login extends AppCompatActivity implements View.OnClickListener{
     FirebaseAuth mAuth;
     private Button buttonsignup2;
-    private Button buttonfp;
     private Button btnlogin;
     ProgressBar progressBar3;
     EditText editTexte,editTextp;
@@ -56,13 +55,6 @@ public class login extends AppCompatActivity implements View.OnClickListener{
                 openSignUp();
             }
         });
-        buttonfp = (Button) findViewById(R.id.buttonfp);
-        buttonfp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openForgotPassword();
-            }
-        });
         btnlogin = (Button) findViewById(R.id.btnlogin);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,10 +67,6 @@ public class login extends AppCompatActivity implements View.OnClickListener{
     }
     public void openSignUp(){
         Intent intent = new Intent(this,signup.class);
-        startActivity(intent);
-    }
-    public void openForgotPassword(){
-        Intent intent = new Intent(this,forgotpass.class);
         startActivity(intent);
     }
     public void openAfterLogin(){

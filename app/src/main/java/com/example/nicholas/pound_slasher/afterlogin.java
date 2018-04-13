@@ -1,9 +1,7 @@
 package com.example.nicholas.pound_slasher;
 
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -12,9 +10,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class afterlogin extends AppCompatActivity {
-
-    ConstraintLayout myLayoutafterlogin;
-    AnimationDrawable animationDrawable;
 
     private Button buttonm;
     private Button buttonex;
@@ -37,15 +32,6 @@ public class afterlogin extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-        myLayoutafterlogin = (ConstraintLayout) findViewById(R.id.myLayoutafterlogin);
-
-        animationDrawable = (AnimationDrawable) myLayoutafterlogin.getBackground();
-        animationDrawable.setEnterFadeDuration(4000);
-        animationDrawable.setExitFadeDuration(4000);
-        //animationDrawable.start();
-        //remove the ( // ) from animationDrawable.start() when login page is functional
-
 
         buttonm = (Button) findViewById(R.id.buttonm);
         buttonm.setOnClickListener(new View.OnClickListener() {

@@ -25,41 +25,10 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:textAlignment="center" />
-    <TextView
-        android:id="@+id/textViewfn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter First Name :"
-        android:layout_marginTop="5dp"
-        android:textStyle="bold"
-        android:ems="20" />
-    <EditText
-        android:id="@+id/editTextfn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_gravity="right"
-        android:gravity="left"
-        android:inputType="textPersonName"
-        android:hint="First Name Here"
+
          />
 
-    <TextView
-        android:id="@+id/textViewln"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter Last Name :"
-        android:textStyle="bold"
-        android:ems="20"/>
-    <EditText
-        android:id="@+id/editTextln"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_gravity="right"
-        android:gravity="left"
-        android:inputType="textPersonName"
-        android:hint="Last Name Here" />
+
     <TextView
         android:id="@+id/textViewe"
         android:layout_width="wrap_content"
@@ -74,7 +43,7 @@
         android:ems="10"
         android:layout_gravity="right"
         android:gravity="left"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:hint="Email Here" />
     <TextView
         android:id="@+id/textViewp"
@@ -91,26 +60,9 @@
         android:password="true"
         android:layout_gravity="right"
         android:gravity="left"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:hint="Password Here"/>
-    <TextView
-        android:id="@+id/textViewpa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter Password Again :"
-        android:textStyle="bold"
-        android:ems="20" />
-    <EditText
-        android:id="@+id/editTextpa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:password="true"
-        android:layout_marginBottom="20dp"
-        android:layout_gravity="right"
-        android:gravity="left"
-        android:inputType="textPersonName"
-        android:hint="Re-enter Password Here" />
+
     <TextView
         android:id="@+id/editTextblank"
         android:layout_width="350dp"
@@ -122,13 +74,16 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:textSize="8dp" />
+
+
+
     <Button
-        android:id="@+id/buttonjoinnowbegin"
+        android:id="@+id/buttonjoin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Join now "
         android:ems="10"
-        android:background="@drawable/greenbuttons"
+        android:background="@android:color/holo_green_dark"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal" />
 
@@ -136,6 +91,6 @@
         android:id="@+id/progressBar2"
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="164dp"
         android:visibility="invisible" />
 </LinearLayout>
